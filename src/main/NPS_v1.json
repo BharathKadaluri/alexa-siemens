@@ -1,0 +1,431 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "siemens human resources",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "stop",
+                        "stop it",
+                        "exit"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "NPSDescription",
+                    "slots": [],
+                    "samples": [
+                        "tell me more about nps",
+                        "tell me about n p s",
+                        "Can you explain N P S",
+                        "Can you explain about NPS",
+                        "why should i opt for nps",
+                        "why should i go for nps",
+                        "Tell me about it",
+                        "Can you tell me about national pension scheme",
+                        "what is N P S ",
+                        "National pension scheme",
+                        "May I know about National pension scheme",
+                        "May I know about NPS",
+                        "I want to know about National pension scheme",
+                        "I want to know about NPS",
+                        "Details about National pension scheme",
+                        "Details about NPS",
+                        "Explain National pension scheme",
+                        "Explain NPS",
+                        "Can you explain me about National pension scheme",
+                        "Can you explain me about NPS",
+                        "Meaning of National pension scheme",
+                        "Meaning of NPS",
+                        "Description of National pension scheme",
+                        "Description of NPS",
+                        "Summarize National pension scheme",
+                        "Summarize NPS",
+                        "National pension scheme is defined as",
+                        "NPS is defined as",
+                        "What does National pension scheme mean",
+                        "What does NPS mean",
+                        "Definition of National pension scheme",
+                        "Definition of NPS",
+                        "What do you mean by National pension scheme",
+                        "What do you mean by NPS",
+                        "Brief me about National pension scheme",
+                        "Brief me about NPS",
+                        "Describe National pension scheme",
+                        "Describe NPS",
+                        "Tell me about National pension scheme",
+                        "Tell me about NPS",
+                        "what is National pension scheme",
+                        "what is NPS"
+                    ]
+                },
+                {
+                    "name": "NPSEligible",
+                    "slots": [],
+                    "samples": [
+                        "what is the maximum age",
+                        "what is the minimum age",
+                        "what is the minimun age for N P S",
+                        "What is the maximum age for N P S",
+                        "Am I eligible for NPS",
+                        "What is the age limit of NPS",
+                        "Who can be eligible for NPS",
+                        "Who can join NPS",
+                        "In which age when we can join NPS",
+                        "What is the age criteria for joining nps",
+                        "What is the maximun age limit to apply for NPS",
+                        "What is the minimum age limit to apply for NPS",
+                        "Tell me the eligibility criteria for NPS",
+                        "I want to know the eligibility to open NPS account",
+                        "I would like to know the eligibility to open NPS account",
+                        "What is the eligibility criteria for National pension scheme",
+                        "What is the eligibility criteria for N P S",
+                        "What is the eligibility criteria for NPS"
+                    ]
+                },
+                {
+                    "name": "NPSContribution",
+                    "slots": [],
+                    "samples": [
+                        "documents required for nps",
+                        "documents required for n p s",
+                        "what are the documents needed for N P S",
+                        "what are the documents needed for NPS",
+                        "what are the documents required for NPS",
+                        "what are the documents required for N P S",
+                        "what are the tax benefits for N P S",
+                        "what are the tax benefits",
+                        "How can I apply for for National pension scheme",
+                        "who is eligible for national pension scheme",
+                        "who is eligible for NPS",
+                        "How can I apply  for NPS",
+                        "I am I Eligible for NPS",
+                        "Are there any minimum annual contribution requirements under NPS",
+                        "Share details on NPS contribution",
+                        "Details about NPS contribution",
+                        "Tell me about NPS contribution",
+                        "What is the maximum contribution for NPS",
+                        "What is the benefit we get if we do the contribution from Siemens.",
+                        "Investment through siemens to NPS",
+                        "How much amount can one invest in NPS",
+                        "What is the maximum amount to invest for NPS ",
+                        "Can I invest directly to NPS",
+                        "What is the mimimum amount to invest for NPS ",
+                        "What amount do i need to invest to open a NPS account",
+                        "Contribution through siemens to NPS",
+                        "What is Tax benefit from NPS",
+                        "How much amount can one contribute to NPS",
+                        "What is the maximum amount to contribute for NPS ",
+                        "Can I contribute directly to NPS",
+                        "What is the mimimum amount to contribute for NPS ",
+                        "What is the amount needed to open a NPS account"
+                    ]
+                },
+                {
+                    "name": "ThanksIntent",
+                    "slots": [],
+                    "samples": [
+                        "yes thank you",
+                        "yes",
+                        "thank you",
+                        "yeah thanks",
+                        "thanks"
+                    ]
+                },
+                {
+                    "name": "NOAnswer",
+                    "slots": [],
+                    "samples": [
+                        "nahi",
+                        "Nope",
+                        "No"
+                    ]
+                },
+                {
+                    "name": "GoodBye",
+                    "slots": [],
+                    "samples": [
+                        "no more questions",
+                        "no I do not have any more questions",
+                        "no I don't have any questions",
+                        "i do not have any questions",
+                        "Good bye",
+                        "I don't have any questions"
+                    ]
+                },
+                {
+                    "name": "Identity",
+                    "slots": [],
+                    "samples": [
+                        "what is your name",
+                        "who are you",
+                        "what are you"
+                    ]
+                },
+                {
+                    "name": "ACCTYPES",
+                    "slots": [],
+                    "samples": [
+                        "What are the different types of accounts",
+                        "How many different types of accounts can we open in NPS",
+                        "How many types of account are there in N P S",
+                        "Difference between Tier one and Tier two accounts",
+                        "Tell me about Tier one and Tier two accounts"
+                    ]
+                },
+                {
+                    "name": "TIERONEACC",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "TIERTWOACC",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "ENROLL",
+                    "slots": [],
+                    "samples": [
+                        "how can i enroll to nps",
+                        "how can i enroll",
+                        "How do I enroll",
+                        "How do I enroll into National pension scheme",
+                        "How do I enroll into N P S",
+                        "How can I enroll into nps",
+                        "How do I enroll into nps",
+                        "What is the Corparate model",
+                        "What is NPS Corporate model",
+                        "How will I know about the status of my PRAN application form",
+                        "How and where can I open a NPS account",
+                        "Tell me about the steps required for NPS registration",
+                        "Can you tell me the documents needed for enrolling to NPS",
+                        "How to submit NPS enrollment form after filling the details",
+                        "Share the details for NPS enrollement",
+                        "Documents related to NPS enrollment",
+                        "What documents are needed for NPS enrollment",
+                        "Details about enrolling to NPS",
+                        "How can I download NPS online form",
+                        "Tell me about NPS enrollment",
+                        "What I should do to enrol to NPS",
+                        "What I should do to register to NPS",
+                        "What I should do to start with NPS",
+                        "Procedure to enrol to NPS",
+                        "Where can we find the online registration form for NPS",
+                        "NPS enrollment form",
+                        "How to apply to NPS",
+                        "How to register to NPS",
+                        "How can I enrol to NPS "
+                    ]
+                },
+                {
+                    "name": "POP",
+                    "slots": [],
+                    "samples": [
+                        "what is point for presence",
+                        "what is p o p ",
+                        "Banks that provide POP SP  for SFSPL",
+                        "Banks that provide POP SP for STSPL",
+                        "Who is POP SP for STSPL",
+                        "Who is POP SP for SFSPL",
+                        "Banks that provide POP SP for siemens limited",
+                        "Who is Point of Presence Service Provider for Siemens Limited",
+                        "Who is a POP POP SP and what is their role",
+                        "What is POP SP",
+                        "List of P O P s for NPS",
+                        "What is POP"
+                    ]
+                },
+                {
+                    "name": "FUNDMANAGER",
+                    "slots": [],
+                    "samples": [
+                        "Who is my fund manager",
+                        "I want to know about my fund manager",
+                        "When can we change the fund manager in NPS",
+                        "Are we allowed to change fund manager in NPS",
+                        "Tell me about my fund manager for NPS",
+                        "Who will manage my investments in NPS",
+                        "Can I change my fund manager for NPS",
+                        "Who is my fund manager for NPS"
+                    ]
+                },
+                {
+                    "name": "GUARANTEE",
+                    "slots": [],
+                    "samples": [
+                        "tell me about the returns",
+                        "I want know about returns",
+                        "i want to know the returns for NPS",
+                        "how much returns can i expect",
+                        "what are the returns of NPS",
+                        "what are the returns",
+                        "What is the investment gurantee in NPS",
+                        "Benefits of NPS",
+                        "NPS investment guarantees",
+                        "Is there any investment guarantees available under NPS",
+                        "When can i expect the returns in NPS",
+                        "What is the current returns in NPS",
+                        "I want to know about the returns in NPS"
+                    ]
+                },
+                {
+                    "name": "PREMATURE",
+                    "slots": [],
+                    "samples": [
+                        "what will happen if I exit early",
+                        "Can I join and exit NPS multiple times",
+                        "How much annuity should subscriber purchase if he exits NPS pre-maturely",
+                        "Can the subscriber opt for hundred percent lump sum withdrawal if he exits pre-maturely",
+                        "How early Can I exit NPS",
+                        "How much can I withdraw if I exit NPS before sixty years",
+                        "Challenges faced if I exit NPS pre-maturely",
+                        "What will happen if I exit NPS pre-maturely",
+                        "Can I re-enter if I exit NPS pre-mature",
+                        "How early can i withdraw from NPS ",
+                        "Can I exit NPS early",
+                        "Can I withdraw from NPS early"
+                    ]
+                },
+                {
+                    "name": "RETIREMENT",
+                    "slots": [],
+                    "samples": [
+                        "what happens after my retirement",
+                        "How much amount susbscriber should use from accumulated pension corpus to purchase an annuity if I retire at the age of sixty",
+                        "Can the subscriber opt for hundred percent lump sum withdrawal at the time of retirement",
+                        "Can a NPS subscriber defer his annuity purchase under NPS at the time of exit ",
+                        " Can I use more than fourty percent of my accumulated pension wealth to purchase the annuity at the time of exit from NPS",
+                        "how much amount do we get if we withdraw from NPS",
+                        "At what age can I withdraw from NPS"
+                    ]
+                },
+                {
+                    "name": "DEMISE",
+                    "slots": [],
+                    "samples": [
+                        "what happens if i die",
+                        "What if susbscriber dies before sixty",
+                        "After my death what happens to my NPS account",
+                        "What about my NPS account balance in case of my death",
+                        "What will happen to my NPS account if I die"
+                    ]
+                },
+                {
+                    "name": "EXCESSCONTRIBUTION",
+                    "slots": [],
+                    "samples": [
+                        "what happens to the access amout that i contribute",
+                        "What happens to my additional contribution in NPS",
+                        "What happens to my excess contribution in NPS",
+                        "Details on excess contribution in NPS",
+                        "Tell me about the additional contibution in NPS account",
+                        "Tell me about the excess contibution in NPS account",
+                        "Tax benefit on additional contibution in NPS",
+                        "Tax benefit on excess contibution in NPS",
+                        "Details on additional contribution in NPS",
+                        "Can I contribute more than ten percent in NPS",
+                        "Can I contribute more in NPS"
+                    ]
+                },
+                {
+                    "name": "ANNUITYSP",
+                    "slots": [],
+                    "samples": [
+                        "List of banks to withdraw Annuity Service Provider in NPS",
+                        "Which banks are eligible to withdraw my Annuity Service Provider in NPS",
+                        "Who are eligible to receive Annuity Service Provider in NPS",
+                        "Can i withdraw my Annuity Service Provider in NPS by cash",
+                        "Where can i withdraw my Annuity Service Provider in NPS",
+                        "Where can we find the online registration form to start with the Annuity Service Provider in NPS",
+                        "What documents are needed to fill the Annuity Service Provider in NPS",
+                        "Details about Annuity Service Provider in NPS"
+                    ]
+                },
+                {
+                    "name": "GRIEVANCE",
+                    "slots": [],
+                    "samples": [
+                        "how do i register my complaints",
+                        "Is there a greivance portal for NPS",
+                        "What is the procedure to complain about NPS account",
+                        "Where can I share my queries about my NPS account",
+                        "Where can I share my complaints about my NPS account",
+                        "Where can I share my grievance about my NPS account",
+                        "How do I share my queries about my NPS account",
+                        "How do I share my greivance about my NPS account",
+                        "How do I share my complaints about my NPS account"
+                    ]
+                },
+                {
+                    "name": "PORTABILITY",
+                    "slots": [],
+                    "samples": [
+                        "what is P R A N",
+                        "How PRAN is useful in NPS portability",
+                        "If I change the company  how can I handle my NPS account",
+                        "Can I move NPS account from one POP-SP to another POP-SP.",
+                        "Can I move NPS account from one POP to another POP",
+                        "Can a private citizen move to State Government with the same Account.",
+                        "Can a private citizen move to Central Government with the same Account",
+                        "Can I shift my NPS account from corporate to Private sector",
+                        "Can I shift my NPS account from Private to corporate sector",
+                        "Can I shift my NPS account from Government to Private sector",
+                        "Can I shift my NPS account from Private to Government sector",
+                        "Can Subscribers shift from one sector to another",
+                        "Can I operate NPS account from different locations within country ",
+                        "What is PRAN",
+                        "In what way is the NPS Portable",
+                        "What is NPS portability"
+                    ]
+                },
+                {
+                    "name": "PARTIALWITHDRAWAL",
+                    "slots": [],
+                    "samples": [
+                        "Can i partially withdraw ",
+                        "how does partial withdrawal work",
+                        "Details about partial withdrawal in NPS",
+                        "What are the conditions for partial withdrawal in NPS",
+                        "How often can we withdraw in NPS",
+                        "What is the minimum amount for Partial Withdrawal in NPS",
+                        "Is Partial Withdrawal possible in NPS",
+                        "What are the steps for Partial Withdrawal in NPS",
+                        "How can i partially withdraw from NPS",
+                        "Tier two Partial Withdrawal",
+                        "Tier one Partial Withdrawal",
+                        "Tier one and Tier two Partial withdrawal",
+                        "Can I partially withdraw in NPS",
+                        "What is Partial Withdrawal in NPS"
+                    ]
+                },
+                {
+                    "name": "YES",
+                    "slots": [],
+                    "samples": [
+                        "yes"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
